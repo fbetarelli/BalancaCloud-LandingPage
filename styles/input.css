@@ -5,4 +5,15 @@
   --font-hubot: "Hubot Sans", sans-serif;
   --font-unbounded: "Unbounded", sans-serif;
   --font-stack-sans: "Stack Sans Headline", sans-serif;
+
+  --animate-drift: drift 2s ease-in-out infinite alternate;
+
+  @keyframes drift {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(15px);
+    }
+  }
 }
