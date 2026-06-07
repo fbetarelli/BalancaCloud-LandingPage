@@ -15,22 +15,22 @@
   </head>
   <body>
     <div
-      class="bg-linear-to-br text-gray-900 from-[#16d17a] via-[#1288ff] to-[#19bee4] min-h-screen flex"
+      class="bg-linear-to-br text-gray-900 from-[#16d17a] via-[#1288ff] to-[#19bee4] min-h-screen flex font-stack-sans"
     >
       <div class="w-[80%] md:w-[80%] mx-auto">
         <section
-          class="w-full mx-auto md:min-h-[90dvh] min-h-[80dvh] flex flex-col"
+          class="w-full mx-auto md:min-h-[90vh] min-h-[80vh] flex flex-col"
         >
           <nav
-            class="max-sm:hidden flex justify-end text-sm p-4 px-6 mx-auto gap-6 bg-[#FAFAFA] font-medium font-stack-sans text-gray-600 rounded-2xl mt-4"
+            class="max-sm:hidden flex justify-end text-sm p-4 px-6 mx-auto gap-6 bg-[#FAFAFA] font-medium text-gray-600 rounded-2xl mt-4"
           >
-            <a href="#proposito" class="hover:text-gray-900"
+            <a href="#proposito" class="hover:text-gray-900 transition-all"
               >● Propósito do Projeto</a
             >
-            <a href="#fluxoDeUso" class="hover:text-gray-900">
+            <a href="#fluxoDeUso" class="hover:text-gray-900 transition-all">
               ● Fluxo de Uso</a
             >
-            <a href="#tecnologias" class="hover:text-gray-900">
+            <a href="#tecnologias" class="hover:text-gray-900 transition-all">
               ● Tecnologias Utilizadas</a
             >
           </nav>
@@ -38,7 +38,7 @@
             class="flex max-sm:gap-6 max-sm:flex-col md:justify-between my-auto"
           >
             <div
-              class="flex max-sm:my-auto flex-col md:text-[8rem]/[7rem] text-[4rem]/[4rem] text-shadow-lg font-stack-sans"
+              class="flex max-sm:my-auto flex-col md:text-[8rem]/[7rem] max-sm:font-medium text-[5rem]/[4rem] text-shadow-lg"
             >
               <div class="flex">
                 <h1>Balança</h1>
@@ -50,7 +50,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="size-6 h-28 w-28 max-sm:h-12 max-sm:w-12 animate-drift"
+                    class="size-6 h-28 w-28 max-sm:h-18 max-sm:w-18 animate-drift"
                   >
                     <path
                       fill-rule="evenodd"
@@ -60,16 +60,16 @@
                   </svg>
                 </h1>
               </div>
-              <span class="md:text-2xl text-xl mt-2 font-bold"
+              <span class="md:text-2xl text-shadow-2xs text-xl mt-2 font-bold"
                 >Quantificando o seu dano.</span
               >
             </div>
             <article
-              class="bg-[#FFFFFF] text-sm rotate-1 gap-2 md:w-1/3 w-[90%] max-sm:mx-auto p-5 flex flex-col items-center font-bold rounded-4xl shadow-2xl"
+              class="bg-[#FFFFFF] text-sm rotate-1 gap-2 md:w-1/3 w-full max-sm:mx-auto p-5 flex flex-col items-center font-bold rounded-4xl shadow-2xl"
             >
-              <p class="font-medium font-hubot">Antes</p>
+              <p class="font-medium">Antes</p>
               <div
-                class="bg-linear-to-br from-[#f7344e] transition-all hover:scale-102 to-[#e94591] font-medium shadow-sm md:text-xl rotate-1 text-[#FFFFFF] rounded-2xl md:p-4 p-2 flex w-full justify-center items-center"
+                class="bg-linear-to-br from-[#f7344e] transition-all hover:scale-102 to-[#e94591] font-medium shadow-sm text-xl rotate-1 text-[#FFFFFF] rounded-2xl p-4 flex w-full justify-center items-center"
               >
                 Desfalques Imprecisos
                 <svg
@@ -87,9 +87,9 @@
                   />
                 </svg>
               </div>
-              <p class="font-hubot">Depois</p>
+              <p class="">Depois</p>
               <div
-                class="bg-linear-to-tl transition-all hover:scale-102 from-[#16d17a] to-[#16d1c2] shadow-lg shadow-green-300 md:text-xl font-stack-sans font-medium -rotate-2 rounded-2xl md:p-4 p-2 flex w-full justify-center items-center"
+                class="bg-linear-to-tl transition-all hover:scale-102 from-[#16d17a] to-[#16d1c2] shadow-lg shadow-green-300 text-xl font-medium -rotate-2 rounded-2xl p-4 flex w-full justify-center items-center"
               >
                 Custos Mensurados
                 <svg
@@ -111,10 +111,7 @@
           </div>
         </section>
         <main class="md:w-[90%] md:mx-auto pb-8">
-          <section
-            id="proposito"
-            class="flex min-h-[70dvh] py-5 flex-col gap-4"
-          >
+          <section id="proposito" class="flex min-h-[70vh] py-5 flex-col gap-4">
             <div
               class="flex max-sm:flex-col w-full gap-5 justify-center self-center"
             >
@@ -146,7 +143,7 @@
                     />
                   </svg>
                 </div>
-                <p class="font-stack-sans text-center p-4 pt-0">
+                <p class="text-center p-4 pt-0">
                   Perdas em lotes de estoque raramente são contabilizadas. Sem
                   dados reais de quantidade e preço,
                   <b> o custo real é mascarado por meras estimativas.</b>
@@ -177,7 +174,7 @@
                     />
                   </svg>
                 </div>
-                <p class="font-stack-sans text-center px-4">
+                <p class="text-center px-4">
                   A falta de controle direto impede as empresas de monitorar e
                   precificar o prejuízo,<b>
                     impossibilitando a criação de metas para conter o
@@ -204,7 +201,7 @@
                   />
                 </svg>
               </div>
-              <p class="font-stack-sans text-center px-4">
+              <p class="text-center px-4">
                 Nossa Balança IoT de Precisão digitaliza a conferência de lotes,
                 <b
                   >transformando o peso físico em dados imediatos de
@@ -222,9 +219,7 @@
             <div
               class="my-2 rounded-2xl flex flex-col md:p-6 p-4 bg-gray-900 text-[#FFFFFF]"
             >
-              <h1
-                class="md:text-2xl text-xl inline-flex gap-2 items-center font-stack-sans"
-              >
+              <h1 class="md:text-2xl text-xl inline-flex gap-2 items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -247,8 +242,8 @@
               <div
                 class="rounded-2xl h-full items-center flex flex-col gap-2 shadow-2xl p-6 text-[#FFFFFF] bg-gray-900"
               >
-                <h1 class="mx-auto font-medium font-stack-sans text-2xl">1</h1>
-                <p class="font-stack-sans text-center px-4">
+                <h1 class="mx-auto font-medium text-2xl">1</h1>
+                <p class="text-center px-4">
                   Inicialização do processo de pesagem e registro de um novo
                   lote no terminal inteligente.
                 </p>
@@ -257,8 +252,8 @@
               <div
                 class="rounded-2xl h-full items-center flex flex-col gap-2 shadow-2xl p-6 bg-[#FFFFFF]"
               >
-                <h1 class="mx-auto font-medium font-stack-sans text-2xl">2</h1>
-                <p class="font-stack-sans text-center px-4">
+                <h1 class="mx-auto font-medium text-2xl">2</h1>
+                <p class="text-center px-4">
                   Coleta de amostragem física para determinação da massa base de
                   uma fração do lote.
                 </p>
@@ -266,8 +261,8 @@
               <div
                 class="rounded-2xl h-full items-center flex flex-col gap-2 shadow-2xl p-6 text-[#FFFFFF] bg-gray-900"
               >
-                <h1 class="mx-auto font-medium font-stack-sans text-2xl">3</h1>
-                <p class="font-stack-sans text-center px-4">
+                <h1 class="mx-auto font-medium text-2xl">3</h1>
+                <p class="text-center px-4">
                   Input da quantidade amostrada para cálculo automático e
                   preciso do peso unitário pelo hardware.
                 </p>
@@ -275,8 +270,8 @@
               <div
                 class="rounded-2xl h-full items-center flex flex-col gap-2 shadow-2xl p-6 bg-[#FFFFFF]"
               >
-                <h1 class="mx-auto font-medium font-stack-sans text-2xl">4</h1>
-                <p class="font-stack-sans text-center px-4">
+                <h1 class="mx-auto font-medium text-2xl">4</h1>
+                <p class="text-center px-4">
                   Execução da pesagem do lote completo para conversão
                   instantânea de massa em quantidade de itens.
                 </p>
@@ -284,8 +279,8 @@
               <div
                 class="rounded-2xl h-full items-center flex flex-col gap-2 shadow-2xl p-6 text-[#FFFFFF] bg-gray-900"
               >
-                <h1 class="mx-auto font-medium font-stack-sans text-2xl">5</h1>
-                <p class="font-stack-sans text-center px-4">
+                <h1 class="mx-auto font-medium text-2xl">5</h1>
+                <p class="text-center px-4">
                   Continuidade operacional ou envio direto dos lotes processados
                   para a nuvem via interface IoT.
                 </p>
@@ -293,8 +288,8 @@
               <div
                 class="rounded-2xl h-full items-center flex flex-col gap-2 shadow-2xl p-6 bg-[#FFFFFF]"
               >
-                <h1 class="mx-auto font-medium font-stack-sans text-2xl">6</h1>
-                <p class="font-stack-sans text-center px-4">
+                <h1 class="mx-auto font-medium text-2xl">6</h1>
+                <p class="text-center px-4">
                   Centralização e organização dos dados em tabelas relacionais
                   integradas à plataforma Tago.io.
                 </p>
@@ -306,9 +301,7 @@
             id="tecnologias"
           >
             <div class="my-2 rounded-2xl flex flex-col md:p-6 p-4 bg-[#FFFFFF]">
-              <h1
-                class="md:text-2xl text-xl inline-flex gap-2 items-center font-stack-sans"
-              >
+              <h1 class="md:text-2xl text-xl inline-flex gap-2 items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -348,7 +341,7 @@
                     />
                   </svg>
                 </div>
-                <p class="font-stack-sans text-center px-4">
+                <p class="text-center px-4">
                   Microcontrolador de alto desempenho com conexão Wi-Fi,
                   utilizado como cérebro do sistema.
                 </p>
@@ -373,9 +366,9 @@
                     />
                   </svg>
                 </div>
-                <p class="font-stack-sans text-center px-4">
+                <p class="text-center px-4">
                   Linguagem básica utilizada em microcontroladores, todo o
-                  código e regras de negócio foram escritas nessa linguagem
+                  código e regras de negócio foram escritas nessa linguagem.
                 </p>
               </div>
               <div
@@ -403,10 +396,10 @@
                     />
                   </svg>
                 </div>
-                <p class="font-stack-sans text-center px-4">
+                <p class="text-center px-4">
                   Plataforma em nuvem completa para a Internet das Coisas (IoT),
                   utilizada para criação do banco de dados e dashboards
-                  interativos e dinâmicos
+                  interativos e dinâmicos.
                 </p>
               </div>
             </div>
