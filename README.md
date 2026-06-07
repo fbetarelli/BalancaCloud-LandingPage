@@ -1,5 +1,7 @@
 # Balança Cloud Landing Page
 
+Checkout the website [here!](https://fbetarelli.github.io/BalancaCloud-LandingPage/)
+
 ## 🇧🇷 Português
 
 Uma landing page/página de informações para o projeto IoT "Balança Cloud", contendo as informações principais sobre como essa solução funciona, oque ela pode proporcionar para empresas, e quais tecnologias a compõem.
@@ -16,5 +18,3 @@ A landing/info page for the IoT project "Balança Cloud" (Cloud Weight Scale), c
 
 **Fist Look on mobile**
 <img src="./assets/Mobile-First-Look.png" alt="Versão Mobile" width="250">
-
-Checkout the website [here!](https://fbetarelli.github.io/BalancaCloud-Website/)
